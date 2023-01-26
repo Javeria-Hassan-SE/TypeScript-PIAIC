@@ -1,0 +1,43 @@
+Step 01: Install TypeScript
+Open CMD -> npm install -g typescript
+
+Step 02: Check Version
+tsc --version
+
+Step 03: 
+Go to your desired folder
+Open CMD on that location: npx tsc
+
+Step 04: tsc --init
+
+Step 05: Create Node Environment
+npm init -y
+
+Step 06:Do some changes in ts.config file
+change module to "NodeNext"
+change modeResolution to "NodeNext"
+change target to "ES2022"
+write 
+"outDir": "./bin",  
+
+Step 07: Do some changes in package.json
+"main": "index.js",
+  "bin": {
+    "{package-name}": "bin/index.js"
+  },
+  "type":"module",
+  "scripts": {
+    "start": "node ."
+  },
+
+Points to Remember:
+- Development dependencies used in development environment (npm i @types/node -D)
+- Dependencies used at the time of deployment. (npm i -D @types/chalk)
+
+Step 08: If you want to install any package in project
+type following command: npm i {package-name}
+Note: Don't forget to add this package in package.json 
+type: npm i @types/{package-name}
+
+Step 09: If you want to run node environment in tsc so write #! /usr/bin/env node in your index.ts
+

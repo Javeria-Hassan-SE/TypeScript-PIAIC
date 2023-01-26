@@ -1,0 +1,29 @@
+{
+  "name": "javeria-cc",
+  "version": "1.0.0",
+  "description": "CLI based TypeScript Currency Converter package",
+  "main": "index.js",
+  
+  "type":"module",
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "javeria.hassan77@gmail.com",
+
+  "license": "ISC",
+  "bin": {
+    "javeria-cc": ".bin/index.js"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/chalk-animation": "^1.6.1",
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^18.11.18"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.1.4"
+  }
+}

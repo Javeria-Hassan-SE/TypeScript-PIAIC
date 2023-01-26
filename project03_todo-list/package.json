@@ -1,0 +1,31 @@
+{
+  "name": "javeria-todo-list",
+  "version": "1.0.0",
+  "description": "CLI based Typescript to-do Application",
+  "main": "index.js",
+  
+  "type":"module",
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "javeria.hassan77@gmail.com",
+
+  "license": "ISC",
+  "bin": {
+    "javeria-todo-list": "bin/index.js"
+  },
+  "devDependencies": {
+    "@types/ascii-art": "^1.4.0",
+    "@types/chalk": "^2.2.0",
+    "@types/chalk-animation": "^1.6.1",
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^18.11.18"
+  },
+  "dependencies": {
+    "ascii-art": "^1.5.1",
+    "chalk": "^5.2.0",
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.1.4"
+  }
+}

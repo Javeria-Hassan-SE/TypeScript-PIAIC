@@ -1,0 +1,7 @@
+1. Go to https://www.npmjs.com/
+2. Create your account
+3. Back to your CMD
+4. Type npm login
+5. Log into your account
+6. npm publish --access=public
+7. 
